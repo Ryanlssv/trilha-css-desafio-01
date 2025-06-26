@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.banner{
+        background-image: 
+        radial-gradient(circle at center, #0d2b47 0%, #000000 100%),
+        url(./assets/images/banner.png);
+    object-fit: scale-down;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-content{
+    background-image: url(./assets/images/banner.png);
+}
+
+.logo{
+    background-color: #0000005e;
+    display: flex;
+    border-radius: 100%;
+    width: 21%;
+    margin-left: 30vw;
+    margin-top: -10vh;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.banner-content h1{
+color:#1e8fe0;
+font-size: 40px;
+font-weight: bold;
+font-family: 'Roboto';
+padding-bottom: 10px;
+}
+
+.banner-content p{
+color:#ffffff;
+font-size: 20px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+width: 46%;
+margin-left: 28%;
+padding-bottom: 20px;
+}
+
+.banner-content{
+    text-align: center;
+    padding: 150px;
+}
+
+.banner-content button{
+    color: #1f8edd;
+    border-color: #1e8fe0;
+    background-color: #ffffff00;
+    font-size: 20px;
+    padding: 15px;
+    width: 40vh;
+    font-family: "Roboto";
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+
+.banner-content button:hover{
+    transform:scale(1.1) ;
+}
+
